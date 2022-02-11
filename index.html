@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flexbox.css">
+    <title>Lucas Rodrigues | Portfólio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container-header">
+            <h1>Portfólio</h1>
+            <ul>
+                <li class="nav-items"><a href="#aboutMe">Sobre mim</a></li>
+                <li class="nav-items"><a href="#projects">Projetos</a></li>
+                <li class="nav-items"><a href="#services">Serviços</a></li>
+                <li class="nav-items"><a href="#skills">Minhas Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container-apresentacao">
+            <h2 class="tittles">Olá, eu sou o Lucas Rodrigues</h2>
+            <p class="apresentation-paragraph">Desenvolvedor Front-End</p>
+            <button class="button" id="download-buuton">
+                <a class="link-download" href="./assets/Lucas_Santos_Rodrigues_(Curriculo).pdf"
+                    download="Lucas_Santos_Rodrigues_(Curriculo)">Download CV</a>
+            </button>
+            <button class="button" id="contact-button">
+                <a class="link-whatsapp" href="https://api.whatsapp.com/send?phone=5511996987610" target="_blank">Entrar
+                    em contato</a>
+            </button>
+        </section>
+        <section class="about-me container-apresentacao">
+            <h2 class="aboutMe-tittle" id="aboutMe">Sobre mim</h2>
+            <div class="container-paragraph">
+                <p class="aboutMe-paragraph">Olá, sou o Lucas Rodrigues, apaixonado por tecnologia, extremamente
+                    motivado por desafios e sempre aprendendo durante minha jornada como desenvolvedor Front-End. Atualmente
+                    venho desenvolvendo minhas habilidades nas tecnologias HTML5, CSS3, JavaScript e React.js. <br>
+                    Além disso, com minha experiência em outras áreas pude desenvolver habilidades de gestão do tempo, comunicação efetiva e relacionamento com cliente.</p>
+            </div>
+        </section>
+
+        <div class="container-Allproject">
+            <h2 class="project-titlle" id="projects">Projetos</h2>
+            <section class="project-section">
+                <div class="container-project">
+                    <a class="container-project-items" href="https://rodrlucas.github.io/ConvertMoney/" target="_blank">
+                        <div>
+                            <img class="image-project" src="./assets/./conversor.png">
+                        </div>
+                        <p class="title-project">Conversor de moedas</p>
+                        <p class="subtitle-project">Tecnologias: HTML, CSS e JS.</p>
+                    </a>
+                </div>
+                <div class="container-project">
+                    <a class="container-project-items" href="https://rodrlucas.github.io/BlogInterface/" target="_blank">
+                        <div>
+                            <img class="image-project" src="./assets/blogInterface.png">
+                        </div>
+                        <p class="title-project">Blog Interface</p>
+                        <p class="subtitle-project">Tecnologias: HTML, CSS.</p>
+                    </a>
+                </div>
+                <div class="container-project">
+                    <a class="container-project-items" href="https://rodrlucas.github.io/DevContabil/" target="_blank">
+                        <div>
+                            <img class="image-project" src="./assets/dev.png">
+                        </div>
+                        <p class="title-project">Dev Contábil</p>
+                        <p class="subtitle-project">Tecnologias: HTML, CSS.</p>
+                    </a>
+                </div>
+                <div class="container-project">
+                    <a class="container-project-items" href="https://rodrlucas.github.io/Login-Interface/" target="_blank">
+                        <div>
+                            <img class="image-project" src="./assets/login.png">
+                        </div>
+                        <p class="title-project">Login Interface</p>
+                        <p class="subtitle-project">Tecnologias: HTML, CSS.</p>
+                    </a>
+                </div>
+                <div class="container-project">
+                    <a class="container-project-items" href="https://rodrlucas.github.io/Comissoes/" target="_blank">
+                        <div>
+                            <img class="image-project" src="./assets/comissoes.png">
+                        </div>
+                        <p class="title-project">Comissões</p>
+                        <p class="subtitle-project">Tecnologias: HTML, CSS e JS.</p>
+                    </a>
+                </div>
+                <div class="container-project">
+                    <a class="container-project-items" href="#" target="_blank">
+                        <div>
+                            <img class="image-project" src="./assets/embreve.png">
+                        </div>
+                        <p class="title-project">Em Breve</p>
+                        <p class="subtitle-project">Tecnologias: ...</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div class="container-allServices">
+            <h2 class="service-titlle" id="services">Serviços</h2>
+            <section>
+                <ul class="container-services-flex">
+                    <li class="services-info"> <img class="services-info-image" src=".//assets/code.svg"> Criação de
+                        sites</li>
+                    <li class="services-info"> <img class="services-info-image" src="./assets/figma.svg"> UI Designer
+                    </li>
+                    <li class="services-info"> <img class="services-info-image" src="./assets/smartphone.svg"> Sites
+                        Responsivos</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="container-allSkills">
+            <h2 class="skills-titlle" id="skills">Minhas Skills</h2>
+            <section>
+                <ul class="container-skills-flex">
+                    <li class="skills-info">
+                        <img class="skills-img" src="./assets/html.svg">
+                    </li>
+                    <li class="skills-info">
+                        <img class="skills-img" src="./assets/css.svg">
+                    </li>
+                    <li class="skills-info">
+                        <img class="skills-img" src="./assets/js.svg">
+                    </li>
+                    <li class="skills-info">
+                        <img class="skills-img" src="./assets/github 1.svg">
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <h2 class="work-titlle">Vamos trabalhar juntos...</h2>
+        <div class="container-workTogether">
+            <a target="_blank" href="mailto:lucasrodriguessantos0@gmail.com" class="container-info">
+                <div class="container-img">
+                    <img class="work-img" src="./assets/mail.svg">
+                </div>
+                <h2 class="work-subtitle">E-mail</h2>
+                <p class="work-paragraph">lucasrodriguessantos0@gmail.com</p>
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/rodrlucas/" class="container-info">
+                <div class="container-img">
+                    <img class="work-img" src="./assets/linkedin 1.svg">
+                </div>
+                <h2 class="work-subtitle">LinkedIn</h2>
+                <p class="work-paragraph">Lucas Rodrigues</p>
+            </a>
+            <a target="_blank" href="https://github.com/RodrLucas" class="container-info">
+                <div class="container-img">
+                    <img class="work-img" src="./assets/github 1.svg">
+                </div>
+                <h2 class="work-subtitle">GitHub</h2>
+                <p class="work-paragraph">RodrLucas</p>
+            </a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511996987610" class="container-info">
+                <div class="container-img">
+                    <img class="work-img" src="./assets/smartphone.svg">
+                </div>
+                <h2 class="work-subtitle">Telefone</h2>
+                <p class="work-paragraph">+55 (11) 99698-7610</p>
+            </a>
+        </div>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <p class="footer-paragraph">Orgulhosamente feito por <span>Lucas Rodrigues</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

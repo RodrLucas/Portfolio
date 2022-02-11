@@ -1,0 +1,111 @@
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 250px;
+}
+
+.container-header > ul {
+    display: flex;
+}
+
+.nav-items {
+    margin-left: 45px;
+}
+
+.container-apresentacao {
+    text-align: center;
+}
+
+.about-me {
+    margin-top: 400px;
+}
+
+.container-paragraph {
+    margin: 30px auto 0 auto;
+    width: 800px;
+}
+
+.container-project {
+    flex-wrap: wrap;
+    gap: 30px; /* Pesquisar sobre */
+    display: flex;
+    justify-content: center;
+}
+
+.project-section {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.container-Allproject {
+    margin-top: 170px;
+}
+
+
+
+/* SERVICES */
+
+.container-allServices {
+    margin-top: 170px;
+}
+
+.service-titlle {
+    margin-bottom: 30px;
+}
+.container-services-flex {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+
+
+/* SKILLS */
+
+.skills-titlle {
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+
+.container-skills-flex {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.container-allSkills {
+    margin-bottom: 170px;
+}
+
+
+/* LETS WORK TOGETHER */
+
+.container-workTogether {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.work-titlle {
+    margin-bottom: 30px;
+}
+
+.work-subtitle {
+    margin: 5px 0;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+    margin-top: 185px;
+}
